@@ -1,0 +1,359 @@
+body{
+    font-family: sans-serif !important;
+    padding: 0%;
+    margin: 0%;
+}
+.banner{
+    background-image: url(banner-img1.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+.banner h1{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left:170px ;
+    float: left;
+}
+.banner h1:hover{
+    color: rgb(253, 77, 13);
+    transition: 0.4s;   
+}
+menu {
+    padding-top: 20px;
+    margin-right: 150px;
+    font-size: 15px;
+    font-style: normal;
+    color: white;
+    height: 100px;
+}
+menu ul{
+    float: right;
+}
+menu ul li {
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+}
+menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+menu ul li a:hover{
+    color: orangered;
+    transition: 0.3s;
+}
+.banner-box{
+    height: 250px;
+    width: 500px;
+    border: 5px solid white;
+    margin-left: 30%;
+    margin-top: 100px;
+    border-radius: 5px;
+}
+.banner-box h2{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 10px;
+    font-family: sans-serif;
+}
+.banner-box p{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 1.7;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+.about{
+    margin-top: 70px;
+    height: 400px;
+    width: 100%;
+}
+.about h1{
+   color: black;
+   text-shadow: 2px 2px 2px black;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+    font-family: sans-serif;
+}
+.about1{
+    width: 40%;
+    height: 300px;
+    margin-left: 50px;
+    float: left;
+}
+.about h2{
+    color: black;
+}
+.about1 p{
+    letter-spacing: 2px;
+    line-height: 1.6;
+    margin-left: 60px;
+    font-size: 15px;
+}
+.about1 h2{
+    letter-spacing: 2px;
+    margin-left: 60px;
+}
+.about1 ul li{
+    list-style: none;
+}
+.about1 ul li i{
+    height: 60px;
+    width: 60px;
+    background-color: orangered;
+    font-size: 35px;
+    text-align: center;
+    line-height: 1.7;
+    border-radius: 50%;
+    color: white;
+    margin-left: 50px;
+}
+.about1 ul li span{
+    margin-left: 50px;
+}
+.about1 ul li{
+    float: left;
+    margin-left: 20px;
+}
+.about2{
+    width: 40%;
+    float: right;
+    margin-right: 100px;
+}
+.service{
+    height: 700px;
+    width: 100%;
+    background-color: rgba(249, 70, 29, 0.9);
+    margin-top: 80px;
+}
+.service h2{
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    font-size:35px ;
+}
+.ser-box {
+    height: 200px;
+    width: 29%;
+    float: left;
+    padding-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
+.ser-box i{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    font-size: 35px;
+    text-align: center;
+    line-height: 1.7;
+    border-radius: 50%;
+    color: orangered;
+}
+.ser-box h3{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.ser-box p{
+    color: white;
+    font-size: 13px;
+    text-align:center ;
+    font-family: 'Nunito', sans-serif !important;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+.locations{
+    height: 600px;
+    width: 100%;
+}
+.locations h5{
+    text-transform: capitalize;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    font-size: 35px;    
+}
+.locations hr{
+    width: 10%;
+    height: 2px;
+    color: black;
+    background-color: black;
+    margin-top: -30px;  
+}
+.locations img{
+    height: auto;
+    width: 28%;
+    align-items: center;
+    float: left; 
+    padding-top: 20px;
+    margin-left: 55px;
+    margin-bottom: 10px;
+}
+.ourteam{
+    height: 600px;
+    width: 100%;
+    background-color: orangered;
+    margin-top: 350px;
+}
+.ourteam h4{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    padding-top: 30px;
+}
+.ourteam hr{
+    width: 10%;
+    height: 1px;
+    color: black;
+    text-decoration: black; 
+}
+.our{
+    background-color: white;
+    height: 300px;
+    width: 15%;
+    float: left;
+    margin-left: 100PX;
+}
+.our img{
+    height: 150px;
+    width: 100%;
+}
+.abt1 h3{
+    float: left;
+    color: black;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.abt1 p{
+    font-size: 13px;
+    margin-left: 5px;
+}
+.contact{
+    width: 100%;
+}
+.contact h2{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px;
+}
+.contact h3{
+    text-align: center;
+    color:grey;
+    font-size: 13px;
+    letter-spacing: 3px;
+}
+.contact1 input:focus{
+    outline: none;
+}
+.contact1{
+    width: 45%;
+    height: 300px;
+    margin-left: 60px;
+    float: left;
+}
+.contact1 input{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin-top: 30px;
+    height: 30px;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    transition: all 0.4s;
+}
+.contact1 input:hover{
+    border-bottom: 1px solid red !important;
+}
+.contact2 input:focus{
+    outline: none;
+}
+.contact2{
+    width: 45%;
+    height: 300px;
+    float: right;
+}
+.contact2 input{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin-top: 30px;
+    height: 30px;
+}
+.button input{
+    border: black;
+    border-radius: 5px;
+    margin-left: 45%;
+    padding: 20px;
+    width: 15%;
+    color: white;
+    background-color: orangered;
+    font-size: 17px;
+}
+.button input:hover{
+    background-color: black;
+}
+.address{
+    height: 500px;
+    width: 40%;
+    float: left;
+}
+.address h4{
+    font-size: 30px;
+    padding-left: 70px;
+    padding-top: 10px;
+    text-shadow: 1px 1px 1px black;
+}
+.address p{
+    padding-left:70px ;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: -20px;
+    font-weight: 100px;
+}
+.address h3{
+    font-size: 30px;
+    padding-left: 70px;
+    padding-top: 10px;
+    text-shadow: 1px 1px 1px black;
+}
+.map{
+    float: right;
+    margin-right: 200px;
+}
+.fafa{
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+
+
+/* Media Quires */
+
+/* Samsung Galaxy */
+@media only screen and (max-width:767px){
+    .banner h1{
+        margin-left: 90px;
+        font-size: 80px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
